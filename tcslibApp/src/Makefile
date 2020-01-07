@@ -13,7 +13,6 @@ LIBRARY += tcslib
 DBD += tcslib.dbd
 
 # tcslib.dbd will be made up from these files:
-tcslib_DBD += base.dbd
 tcslib_DBD += geminiRecords.dbd
 tcslib_DBD += tcslibFunc.dbd
 tcslib_DBD += slalib.dbd
