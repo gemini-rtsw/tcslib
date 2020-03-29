@@ -27,10 +27,10 @@ WORKSUP=/gem_sw/work/$(EPICS_RELEASE)/support
 TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
 
 # If using the sequencer, point SNCSEQ at its top directory:
-SLALIB=$(PRODSUP)/slalib/1-9-11
-TIMELIB=$(PRODSUP)/timelib/3-0-0
-ASTLIB=$(PRODSUP)/astlib/1-6-13
-GEMREC=$(PRODSUP)/geminiRec/4-1-12
+SLALIB=$(PRODSUP)/slalib/1-9-10-R315
+TIMELIB=$(PRODSUP)/timelib/2-1-3-R315
+ASTLIB=$(PRODSUP)/astlib/1-6-15-R315
+GEMREC=$(PRODSUP)/geminiRec/4-1-11-R315
 
 # EPICS_BASE usually appears last so other apps can override stuff:
 EPICS_BASE=/gem_sw/epics/$(EPICS_RELEASE)/base
