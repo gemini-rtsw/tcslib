@@ -19,23 +19,23 @@
 # Build settings that are NOT module paths should appear in a
 # CONFIG_SITE file.
 
-EPICS_RELEASE=R3.14.12.8
+EPICS_RELEASE=R3.15.8
 
-PRODSUP=/gem_sw/prod/$(EPICS_RELEASE)/support
-WORKSUP=/gem_sw/work/$(EPICS_RELEASE)/support
+PRODSUP=/gem_base/epics/support
+WORKSUP=/home/rrojas/work/$(EPICS_RELEASE)/support
 
 TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
 
 # If using the sequencer, point SNCSEQ at its top directory:
-SLALIB=$(PRODSUP)/slalib/1-9-10
-TIMELIB=$(PRODSUP)/timelib/2-1-4
+SLALIB=$(PRODSUP)/slalib
+TIMELIB=$(PRODSUP)/timelib
 #TIMELIB=$(WORKSUP)/timelib-nb
-ASTLIB=$(PRODSUP)/astlib/1-6-16
+ASTLIB=$(WORKSUP)/astlib
 #ASTLIB=$(WORKSUP)/astlib-nb
-GEMREC=$(PRODSUP)/geminiRec/4-1-11
+GEMREC=$(PRODSUP)/geminiRec
 
 # EPICS_BASE usually appears last so other apps can override stuff:
-EPICS_BASE=/gem_sw/epics/$(EPICS_RELEASE)/base
+EPICS_BASE=/gem_base/epics/epics-base
 
 # Set RULES here if you want to take build rules from somewhere
 # other than EPICS_BASE:
