@@ -11,11 +11,14 @@ LIBRARY += tcslib
 
 # <APPNAME>.dbd will be created and installed
 DBD += tcslib.dbd
+DBD += tcslibSupp.dbd
+
+tcslibSupp_DBD += tcslibFunc.dbd
 
 # tcslib.dbd will be made up from these files:
+tcslib_DBD += $(tcslibSupp.dbd)
 tcslib_DBD += base.dbd
 tcslib_DBD += geminiRecords.dbd
-tcslib_DBD += tcslibFunc.dbd
 tcslib_DBD += slalib.dbd
 tcslib_DBD += astlib.dbd
 # List local .dbd files here
