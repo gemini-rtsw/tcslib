@@ -20,7 +20,6 @@ tcslib_DBD += $(tcslibSupp.dbd)
 tcslib_DBD += base.dbd
 tcslib_DBD += geminiRecords.dbd
 tcslib_DBD += slalib.dbd
-tcslib_DBD += astlib.dbd
 # List local .dbd files here
 # tcslib_DBD += xxx.dbd
 
