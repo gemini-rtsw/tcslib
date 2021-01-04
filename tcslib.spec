@@ -26,8 +26,8 @@ Source0: %{name}-%{version}.tar.gz
 ExclusiveArch: %{arch}
 Prefix: %{_prefix}
 ## You may specify dependencies here
-BuildRequires: epics-base-devel re2c gemini-ade
-Requires: epics-base
+BuildRequires: epics-base-devel re2c gemini-ade slalib-devel timelib-devel astlib-devel geminirec-devel
+Requires: epics-base slalib timelib astlib geminiRec
 ## Switch dependency checking off
 ## AutoReqProv: no
 
