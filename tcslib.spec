@@ -19,7 +19,7 @@
 Summary: %{name} Package, a module for EPICS base
 Name: %{name}
 Version: 1.1.1
-Release: 3%{?dist}
+Release: 4%{?dist}
 License: EPICS Open License
 Group: Applications/Engineering
 Source0: %{name}-%{version}.tar.gz
@@ -82,6 +82,9 @@ rm -rf $RPM_BUILD_ROOT
    /%{_prefix}/%{name}/configure
 
 %changelog
+* Mon Jan 04 2021 Roberto Rojas <rrojas@gemini.edu> 1.1.1-4
+- 
+
 * Wed Dec 30 2020 Roberto Rojas <rrojas@gemini.edu> 1.1.1-3
 - new package built with tito
 
