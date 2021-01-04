@@ -19,7 +19,7 @@
 Summary: %{name} Package, a module for EPICS base
 Name: %{name}
 Version: 1.1.1
-Release: 6%{?dist}
+Release: 7%{?dist}
 License: EPICS Open License
 Group: Applications/Engineering
 Source0: %{name}-%{version}.tar.gz
@@ -82,6 +82,9 @@ rm -rf $RPM_BUILD_ROOT
    /%{_prefix}/%{name}/configure
 
 %changelog
+* Mon Jan 04 2021 Roberto Rojas <rrojas@gemini.edu> 1.1.1-7
+- modified spec file
+
 * Mon Jan 04 2021 Roberto Rojas <rrojas@gemini.edu> 1.1.1-6
 - spec file modified
 
