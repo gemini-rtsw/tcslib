@@ -19,7 +19,7 @@
 Summary: %{name} Package, a module for EPICS base
 Name: %{name}
 Version: 1.1.1
-Release: 8%{?dist}
+Release: 9%{?dist}
 License: EPICS Open License
 Group: Applications/Engineering
 Source0: %{name}-%{version}.tar.gz
@@ -82,6 +82,9 @@ rm -rf $RPM_BUILD_ROOT
    /%{_prefix}/%{name}/configure
 
 %changelog
+* Mon Jan 11 2021 Roberto Rojas <rrojas@gemini.edu> 1.1.1-9
+- 
+
 * Mon Jan 04 2021 Roberto Rojas <rrojas@gemini.edu> 1.1.1-8
 - removes astlib.dbd
 
