@@ -22,17 +22,15 @@
 EPICS_RELEASE=R3.15.8
 
 PRODSUP=/gem_base/epics/support
-WORKSUP=/home/rrojas/work/$(EPICS_RELEASE)/support
 
 TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
 
 # If using the sequencer, point SNCSEQ at its top directory:
 SLALIB=$(PRODSUP)/slalib
 TIMELIB=$(PRODSUP)/timelib
-#TIMELIB=$(WORKSUP)/timelib-nb
-#ASTLIB=$(WORKSUP)/astlib
 ASTLIB=$(PRODSUP)/astlib
 GEMREC=$(PRODSUP)/geminiRec
+GEMUTIL=$(PRODSUP)/gemUtil
 
 # EPICS_BASE usually appears last so other apps can override stuff:
 EPICS_BASE=/gem_base/epics/epics-base
