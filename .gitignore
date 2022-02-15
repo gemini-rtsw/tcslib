@@ -1,3 +1,7 @@
+*.swp
+*BAK.adl
+cdCommands
+envPaths
 *.bak
 O.*
 db
@@ -6,5 +10,7 @@ bin
 data
 include
 lib
+.git
+templates
 /configure/RELEASE.local
 /configure/CONFIG_SITE.local
