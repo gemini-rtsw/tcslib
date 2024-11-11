@@ -84,24 +84,17 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Mon Jan 11 2021 Roberto Rojas <rrojas@gemini.edu> 1.1.1-9
 - 
-
 * Mon Jan 04 2021 Roberto Rojas <rrojas@gemini.edu> 1.1.1-8
 - removes astlib.dbd
-
 * Mon Jan 04 2021 Roberto Rojas <rrojas@gemini.edu> 1.1.1-7
 - modified spec file
-
 * Mon Jan 04 2021 Roberto Rojas <rrojas@gemini.edu> 1.1.1-6
 - spec file modified
-
 * Mon Jan 04 2021 Roberto Rojas <rrojas@gemini.edu> 1.1.1-5
 - 
-
 * Mon Jan 04 2021 Roberto Rojas <rrojas@gemini.edu> 1.1.1-4
 - 
-
 * Wed Dec 30 2020 Roberto Rojas <rrojas@gemini.edu> 1.1.1-3
 - new package built with tito
-
 * Wed Nov 18 2020 rrojas <rrojas@gemini.edu> 1.1.1
 - copy based on astlib module
